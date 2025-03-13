@@ -8,7 +8,7 @@ GEOSmam:
 
 extensions:
   MAM:
-    local: ./src/Components/@GEOSgcm_GridComp/.../@GEOSchem_GridComp/@MAM
+    local: ./src/Components/@GEOSgcm_GridComp/../@GEOSchem_GridComp/@MAM
     remote: ../MAM.git
     tag: v1.0.0
     develop: develop

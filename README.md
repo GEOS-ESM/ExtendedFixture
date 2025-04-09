@@ -1,2 +1,2 @@
 # ExtendedFixture
-Testing mepo extended fixtures
+Testing mepo fixture extension

@@ -1,4 +1,4 @@
-GEOStr:
+GEOScpl:
   fixture: true
   develop: main
   extends:
@@ -33,6 +33,18 @@ extensions:
     remote: ../SIS2.git
     tag: geos/v0.0.1
     develop: dev/gfdl
+
+  ww3:
+    local: ./src/Components/@GEOSgcm_GridComp/GEOSwgcm_GridComp/GEOSwavewatch_GridComp/@ww3
+    remote: ../WW3.git
+    tag: v7.14-geos-r1
+    develop: geos/develop
+
+  umwm:
+    local: ./src/Components/@GEOSgcm_GridComp/GEOSwgcm_GridComp/GEOSumwm_GridComp/@umwm
+    remote: ../umwm.git
+    tag: v2.0.0-geos-r1
+    develop: geos
 
 # overrides:
 #   GEOSgcm_GridComp:

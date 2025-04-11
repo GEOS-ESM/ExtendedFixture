@@ -3,7 +3,7 @@ GEOScpl:
   develop: main
   extends:
     GEOSagcm:
-      tag: pchakrab-stripped-gcm
+      tag: feature/stripped-gcm
       remote: ../GEOSgcm.git
 
 extensions:
@@ -27,12 +27,6 @@ extensions:
     remote: ../Icepack.git
     tag: geos/v0.3.0
     develop: geos/develop
-
-  sis2:
-    local: ./src/Components/@GEOSgcm_GridComp/GEOSogcm_GridComp/GEOSseaice_GridComp/CICE_GEOSPlug/@sis2
-    remote: ../SIS2.git
-    tag: geos/v0.0.1
-    develop: dev/gfdl
 
   ww3:
     local: ./src/Components/@GEOSgcm_GridComp/GEOSwgcm_GridComp/GEOSwavewatch_GridComp/@ww3
